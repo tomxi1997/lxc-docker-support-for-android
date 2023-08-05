@@ -78,18 +78,19 @@ config DOCKER
 	select DUMMY
 	select DEVPTS_MULTIPLE_INSTANCES
 	select MEMCG_KMEM
-        select NETFILTER_XT_MATCH_IPVS
-        select IP_VS_RR
-        select SECURITY_APPARMOR
-        select BRIDGE_VLAN_FILTERING
-        select IP6_NF_TARGET_MASQUERADE
-        select NETFILTER_XT_TARGET_CHECKSUM
-        select FHANDLE
-        select UNIX_DIAG
-        select PACKET_DIAG
-        select NETLINK_DIAG
-        select CHECKPOINT_RESTORE
-        select NETFILTER_XT_MATCH_CGROUP
+	
+    select NETFILTER_XT_MATCH_IPVS
+    select IP_VS_RR
+    select SECURITY_APPARMOR
+    select BRIDGE_VLAN_FILTERING
+    select IP6_NF_TARGET_MASQUERADE
+    select NETFILTER_XT_TARGET_CHECKSUM
+    select FHANDLE
+    select UNIX_DIAG
+    select PACKET_DIAG
+    select NETLINK_DIAG
+    select CHECKPOINT_RESTORE
+    select NETFILTER_XT_MATCH_CGROUP
 
 
 
