@@ -41,13 +41,16 @@ List created using information from the [Gentoo Docker Project](https://wiki.gen
 
 
 
-11。lxc配置添加到内核源码，在内核源码目录下执行
+11.1 #lxc配置添加到内核源码，在内核源码目录下执行
 
 
 git clone https://github.com/tomxi1997/lxc-docker-support-for-android.git utils
 
 git clone https://github.com/tomxi1997/AnyKernel3.git
-#在内核源码根目录,编辑Kconfig
+
+
+
+11.2 #在内核源码根目录,编辑Kconfig
 
 添加以下内容，可参考2. Add a line into the root Kconfig样式修改
 
