@@ -46,6 +46,7 @@ List created using information from the [Gentoo Docker Project](https://wiki.gen
 
 git clone https://github.com/tomxi1997/lxc-docker-support-for-android.git utils
 
+git clone https://github.com/tomxi1997/AnyKernel3.git
 #在内核源码根目录,编辑Kconfig
 
 添加以下内容，可参考2. Add a line into the root Kconfig样式修改
