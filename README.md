@@ -63,8 +63,8 @@ net/netfilter/xt_qtaguid.c
 在arch/arm64/configs/xxxx_defconfig
 中加入以下内容
 
-#  CONFIG_ANDROID_PARANOID_NETWORK is not set
 
+#  CONFIG_ANDROID_PARANOID_NETWORK is not set
 CONFIG_DOCKER=y
 
 
