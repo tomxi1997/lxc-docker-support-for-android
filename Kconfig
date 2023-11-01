@@ -144,7 +144,7 @@ config DOCKER_AUFS
 
 config DOCKER_BTRFS
 	bool "Use btrfs"
-	default n
+	default y
 	depends on DOCKER
 	help
 		Yes if you are using btrfs
