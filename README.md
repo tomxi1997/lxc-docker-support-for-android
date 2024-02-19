@@ -41,6 +41,9 @@ List created using information from the [Gentoo Docker Project](https://wiki.gen
 
 
 
+下面的所有操作可由此
+https://github.com/tomxi1997/LXC_KernelSU_Action一键编译生成lxc kernelsu内核，手动操作的可看下面↓
+
 11.1 #lxc配置添加到内核源码，在内核源码目录下执行
 
 
