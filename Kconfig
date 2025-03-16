@@ -90,6 +90,7 @@ config DOCKER
         select NETLINK_DIAG
         select CHECKPOINT_RESTORE
         select NETFILTER_XT_MATCH_CGROUP
+        select BINFMT_MISC
 
 
 
